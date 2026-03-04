@@ -1,10 +1,10 @@
-A “weapon of math destruction” (WMD) is:
+A "weapon of math destruction" (WMD) is:
 A large-scale algorithm or predictive model
 That is opaque (hard to understand or challenge)
 And causes unfair or damaging outcomes
 While affecting lots of people
 
-The term was coined by Cathy O'neil in her 2016 book by the same name. O’Neil is an mathematician
+The term was coined by Cathy O'neil in her 2016 book by the same name. O'Neil is an mathematician
 and data scientist. She earned a PhD in mathematics, worked in academia, then moved into finance as 
 a quantitative analyst, and later became a data science consultant and public advocate
 for algorithmic accountability.
@@ -16,4 +16,4 @@ Hiring and resume screening
 Predictive policing
 College rankings
 Teacher evaluations
-can reinforce inequality if they’re biased or poorly designed.
+can reinforce inequality if they're biased or poorly designed.
