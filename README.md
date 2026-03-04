@@ -1,11 +1,24 @@
 # CS110-Green-Group
 Group project for CS110
+Members: Marcus Sharp, Riley Odell-Dee, Ryan Gronberg
 
 WMD Identifier
-
 This app will allow users to Check on if they are potentially a victim of a WMD. 
-We have 2 options when you open the app.
-first is start where the user will answer some questions.
-the second option is Learn More. where the user can read about what a WMD is and how it effects people.
 
-Research:
+Overview:
+We wanted to spread awareness on what a WMD is and why it is important to be aware of them. There are many people who are affected by WMD's, especially those who are in low income housing. Other people who are historically underrepresented are also often victims of WMDs.
+
+Information:
+Since WMDs are so widespread it is important to spread awareness. This is because if no one is aware then companies are able to use these WMDs to discriminate and reinforce inequality. If enough people learn about what a WMD is then we may be able to start getting rid of them and making a positive impact on society.
+
+Configuration, installation, and execution instructions:
+Download both the LearnMore.txt and Main.py files from this repository. Next open python and open the Main.py file. Make sure that LearnMore.txt and Mail.py are in the same folder. Run the program and decide on if you want to learn more about WMDs or if you want to go through the questionnaire to see if you are a potential victim of a WMD.
+
+Table of files including:
+Main.py:
+This is the GUI and questionnaire allowing the 
+LearnMore.txt:
+This is the text file where you can learn more about what a WMD is and has a link to a PDF file of the book Weapons of Math Destruction by Cathy O’neil.
+
+Citations:
+O’Neil, Cathy. Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy. Random House UK, 2022.
