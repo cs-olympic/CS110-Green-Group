@@ -47,7 +47,7 @@ def StartScreen():
 
     # Start Button
     def start():
-        ChangeScreens(MultipleChoice)
+        ChangeScreens(Question1)
     startButton = tkinter.Button(
         window,
         text="Start",
@@ -66,6 +66,31 @@ def StartScreen():
         font=(font, 40),
         width=10)
     lmButton.pack(pady=padding)
+
+""" This question asks the user how much they think they know about how their data is being used,
+this question sees how opaque the algorithim is. """
+def Question1():
+    BackAndNext(StartScreen, StartScreen)
+
+    # Question
+    question = tkinter.Label(
+        window,
+        text="How much do you think you know\nabout how your data is being used?",
+        font=(font, 30))
+    question.pack(pady=padding)
+
+    # Options
+    options = []
+    optionsText = ["Everything", "Some Things", "Very Little", "Nothing"]
+    state = tkinter.IntVar(value=1)
+    for i in range(4):
+        options.append(tkinter.Radiobutton(
+            window,
+            text=optionsText[i],
+            variable=state,
+            value=i,
+            font=(font, 20)))
+        options[i].pack(pady=padding)
 
 """ I've tried to make this function act as sort of a base for other screen functions, but I just
 can't figure it out. I think it would be easier if I was able to use Python classes, but I don't
