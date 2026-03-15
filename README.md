@@ -16,41 +16,40 @@ Download both the LearnMore.txt and Main.py files from this repository. Next ope
 
 ###Sample use-cases with screenshots:
 
-![Click Main.py to open the file](Images/Click Download 1.png)
+Click Main.py to open the file
+![Click Main.py to open the file](Images/Click%20Main.py.png)
+
 
 Click the download button and add it to a folder.
+![Click the download button and add it to a folder.](Images/Click%20Download%202.png)
 
 
 Click LearnMore.txt
+![Click LearnMore.txt](Images/Click%20Learn%20More.png)
 
 
 Click the download button and add it to the same folder as Main.py
-
-
-
+![Click the download button and add it to the same folder as Main.py](Images/Click%20Download%201.png)
 
 
 Open your code editor I am using Mu and click load
+![Open your code editor I am using Mu and click load](Images/Click%20load.png)
 
 
-Load the main.py file
-Click Run
+Load the main.py file then Click Run
+![Load the main.py file then Click Run](Images/Click%20Run.png)
+
 
 This will open up the app where you can click Start to fill out the Questionare
-
-
-
-
-
-
-
-
+![This will open up the app where you can click Start to fill out the Questionare](Images/Click%20Start.png)
 
 
 Or you can Click Learn More to learn about WMD’s
+![Or you can Click Learn More to learn about WMD’s](Images/Click%20learn%20More%20Option.png)
 
 
 There is a link to the book weapons of math destruction
+![There is a link to the book weapons of math destruction](Images/Link%20to%20book.png)
 
 
 ###Table of files including:
