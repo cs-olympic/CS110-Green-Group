@@ -16,7 +16,7 @@ Download both the LearnMore.txt and Main.py files from this repository. Next ope
 
 ###Sample use-cases with screenshots:
 Click Main.py to open the file
-
+![](Images/Click Download 1.png)
 
 Click the download button and add it to a folder.
 
