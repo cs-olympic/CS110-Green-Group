@@ -12,7 +12,8 @@ padding = 10
 scores = { # This scores variable will be edited with every question
     "Opaqueness" : 0, # How opaque the algorithim is
     "Discrimitive" : 0, # How discrimitive the algorithim is
-    "Scale" : 0} # The reach of the algorithim
+    "Scale" : 0, # The reach of the algorithim
+    "Harmfulness" : 0} # How Harmful the algorithim is
 
 # Window
 window = tkinter.Tk()
@@ -191,7 +192,7 @@ def Question4():
     # Question
     question = tkinter.Label(
         window,
-        text="How many people does your insurence provider serve?",
+        text="How many people does your\ninsurance provider serve?",
         font=(font, 30))
     question.pack(pady=padding)
 
@@ -216,7 +217,33 @@ def Question4():
             font=(font, 20)))
         options[i].pack(pady=padding)
     
-    BackAndNext(Question3, StartScreen, SingleSelectLogic, var, "Scale")
+    BackAndNext(Question3, Question5, SingleSelectLogic, var, "Scale")
+
+def Question5():
+    # Question
+    question = tkinter.Label(
+        window,
+        text="Would you consider your\ninsurance rates high?",
+        font=(font, 30))
+    question.pack(pady=padding)
+
+    """ I accidentally wrote the optionText list in the wrong order, so instead of rewriting it,
+    I instead used the reverse function because of lazyness. """
+    # Options
+    options = []
+    optionsText = ["Yes, they are very high", "They are pretty normal", "No, they seem pretty low"]
+    optionsText.reverse()
+    var = tkinter.IntVar(value=1)
+    for i in range(len(optionsText)):
+        options.append(tkinter.Radiobutton(
+            window,
+            text=optionsText[i],
+            variable=var,
+            value=i,
+            font=(font, 20)))
+        options[i].pack(pady=padding)
+    
+    BackAndNext(Question4, StartScreen, SingleSelectLogic, var, "Harmfulness")
 
 """ I've tried to make this function act as sort of a base for other screen functions, but I just
 can't figure it out. I think it would be easier if I was able to use Python classes, but I don't
